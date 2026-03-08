@@ -110,6 +110,32 @@ Here is how you play:
 Once your time is up, your ship will disappear from the Bounce House, and you'll
 see your score for that round in chat.
 
+**How to customize your spaceship:**
+
+![Spritesheet template for the original spaceship](/src/assets/ship-sheet.png "Spritesheet template for the original spaceship")
+
+There are seven frames. Each frame is 80 x 45, resulting in a single 560 x 45 spritesheet.
+
+1. The first frame is the ship in its idle form.
+1. The second frame is the forward thursters.
+1. The third frame is boost.
+1. The fourth frame is reverse.
+1. The fifth frame is boosting in reverse.
+1. The sixth frame is turning anti-clockwise.
+1. The seventh frame is turning clockwise.
+
+Some frames will be overlayed on top of each other while playing. For example, if the ship is boosting and turning clockwise, frames 1, 3 and 7 are used together.
+
+Pure white pixels will be recolored as the player's configured color (see [!my-color](/commands#bounce-house)). A customized ship requires at least 1 pure white pixel.
+
+![This shows how the white pixels are turned into the player's unique color](/src/assets/ship-my-color-integration-demonstration.png "This shows how the white pixels are turned into the player's unique color")
+
+Template (either will do):
+* [aseprite](/src/assets/ship-sheet.aseprite)
+* [png](/src/assets/ship-sheet.png)
+
+There is no system in place at this time to upload spritesheet. Discord works in the meantime (see [!discord](/commands#info)).
+
 ### Just Juniper Pats
 
 Our lovely Tamagotchi-like Hedgehog loves it dearly when you give her gentle
