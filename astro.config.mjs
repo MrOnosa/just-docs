@@ -45,7 +45,7 @@ export default defineConfig({
                 {label: 'Commands', slug: 'commands'},
                 {label: 'Redeems', slug: 'redeems'},
                 {label: 'Usercard', slug: 'usercard'},
-                {label: 'Extension', slug: 'extension'},
+                {label: 'Extension', slug: 'browser-extension'},
                 {
                     label: 'API documentation',
                     link: 'https://api.bahms.org',
