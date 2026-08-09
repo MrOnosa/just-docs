@@ -99,6 +99,7 @@ export enum RedeemID {
 
     // Interact with Jane.
     PayAttentionToMe = '1b497994-d9d1-48bc-91a2-fda8ae4a4309',
+    DragMeAround = 'db9642ff-4c9c-4b6a-b892-0a0d2654517b',
     Nya = 'd5886b0a-e2c8-43c6-9b6f-9edf6648d8e5',
     Bark = '9e635557-eb5d-4f26-a8e0-226e7a2af3df',
     AraAra = '02b556de-4164-4c88-93d4-29fc0d980838',
