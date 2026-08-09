@@ -8,8 +8,7 @@ This redeem integrates with the [GreenHeat](https://heat.prod.kr/) Twitch extens
 
 **On mobile?**
 
-![GreenHeat Icon](https://extensions-discovery-images.twitch.tv/yvswtbzy4fj9h89rk06e0wuw2ghfwv/0.0.1/logo0a9dcde3-94f2-4db6-af1a-54d217e143d6)
-Look for this icon.
+Look for the GreenHeat icon.
 Tap it to reveal an area that you can use to drag Jane around.
 
 _Rotating and resizing Jane is not supported on mobile devices at this time._
